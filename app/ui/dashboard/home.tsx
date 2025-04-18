@@ -3,7 +3,7 @@ import { HOME_CONTENT } from "@/app/data/data";
 
 const Home = () => {
     return (
-        <section id="Home" className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 max-w-3xl px-5 py-30 md:py-58">
+        <section id="Home" className="mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 max-w-3xl px-5 py-30 md:py-58">
             {/* Gambar */}
             <Image 
                 src={HOME_CONTENT.img} 

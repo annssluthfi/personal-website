@@ -2,9 +2,9 @@ import { EXPERIENCES_CONTENT } from "@/app/data/data";
 
 const Experiences = () => {
     return (
-        <section id="Experiences" className="container mx-auto px-5 py-20">
+        <section id="Experiences" className="mx-auto px-5 py-20">
             <p className="text-s font-semibold mb-3">Related Experience</p>
-            <h2 className="text-3xl font-bold text-left mb-10 underline decoration-teal-700">My Experiences</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-left mb-10 underline decoration-teal-700">My Experiences</h2>
             
             <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
             {EXPERIENCES_CONTENT.map((exp, index) => (

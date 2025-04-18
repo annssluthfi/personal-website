@@ -5,9 +5,9 @@ import { SiGoogledrive } from "react-icons/si";
 
 const Projects = () => {
     return (
-        <section id="Projects" className="container mx-auto px-5 py-20">
+        <section id="Projects" className="mx-auto px-5 py-20">
             <p className="text-s font-semibold mb-3">Recent Projects</p>
-            <h2 className="text-3xl font-bold text-left mb-10 underline decoration-teal-700">My Projects</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-left mb-10 underline decoration-teal-700">My Projects</h2>
             <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
                 {PROJECT_CONTENT.map((exp, index) => (
                     <div 
@@ -25,8 +25,8 @@ const Projects = () => {
                         
                         {/* Konten */}
                         <div className="md:ml-8 flex flex-col flex-1 pr-2">
-                            <h3 className="text-xl font-semibold">{exp.title}</h3>
-                            <p className="text-sm text-gray-600 mt-2 text-justify">{exp.desc}</p>
+                            <h3 className="text-base md:text-xl font-semibold">{exp.title}</h3>
+                            <p className="text-sm md:text-base text-gray-600 mt-2 text-justify">{exp.desc}</p>
 
                             {/* Teknologi sebagai tag */}
                             <div className="flex flex-wrap gap-2 mt-3">

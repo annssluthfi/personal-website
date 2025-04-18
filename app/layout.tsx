@@ -20,7 +20,7 @@ export default function RootLayout({
           <div>
             <Navbar/>
           </div>
-          <div>
+          <div className="mx-2 md:mx-20">
             {children}
           </div>
         </main>

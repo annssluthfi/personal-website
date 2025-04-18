@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Experiences = () => {
     return (
-        <section id="Skills" className="container mx-auto px-5 py-20">
+        <section id="Skills" className="mx-auto px-5 py-20">
             <p className="text-s font-semibold mb-3">My Skills</p>
-            <h2 className="text-3xl font-bold text-left mb-10 underline decoration-teal-700">My Expertise</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-left mb-10 underline decoration-teal-700">My Expertise</h2>
 
             <div className="flex flex-wrap justify-center gap-4">
                 {SKILLS_CONTENT.map((skill, index) => (
@@ -18,7 +18,7 @@ const Experiences = () => {
                         className="bg-white p-3 mb-4"
                         />
                         <h4 className="font-semibold text-base mb-2">{skill.title}</h4>
-                        <p className="md:text-sm opacity-80 text-justify">{skill.desc}</p>
+                        <p className="text-sm md:text-base opacity-80 text-justify">{skill.desc}</p>
                     </div>
                     </div>
                 ))}
