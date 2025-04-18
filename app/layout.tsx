@@ -2,6 +2,12 @@ import "./globals.css";
 import Navbar from "@/app/ui/dashboard/navbar";
 import {poppins} from "@/app/ui/fonts"
 
+export const metadata = {
+  title: 'Annisa Personal Webiste',
+  description: 'Personal Protofolio by Annisa Luthfi Fadillah',
+  viewport: 'width=device-width, initial-scale=1',
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -14,7 +20,7 @@ export default function RootLayout({
           <div>
             <Navbar/>
           </div>
-          <div className="mt-30">
+          <div>
             {children}
           </div>
         </main>

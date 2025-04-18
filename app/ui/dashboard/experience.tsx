@@ -14,7 +14,7 @@ const Experiences = () => {
                         <h3 className="text-xl font-semibold">{exp.title}</h3>
                         <p className="text-gray-600 text-sm">{exp.date} | {exp.location}</p>
                         <p className="text-gray-700 font-medium mt-1 mb-3">{exp.role}</p>
-                        <ul className="text-gray-600 mt-2 mb-6 list-disc list-outside pl-5 text-justify space-y-1">
+                        <ul className="text-sm md:text-base text-gray-600 mt-2 mb-6 list-disc list-outside pl-5 text-justify space-y-1">
                             {exp.desc.map((point, idx) => (
                                 <li key={idx}>{point}</li>
                             ))}

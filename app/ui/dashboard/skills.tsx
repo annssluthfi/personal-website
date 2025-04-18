@@ -18,7 +18,7 @@ const Experiences = () => {
                         className="bg-white p-3 mb-4"
                         />
                         <h4 className="font-semibold text-base mb-2">{skill.title}</h4>
-                        <p className="text-sm opacity-80 text-justify">{skill.desc}</p>
+                        <p className="md:text-sm opacity-80 text-justify">{skill.desc}</p>
                     </div>
                     </div>
                 ))}
